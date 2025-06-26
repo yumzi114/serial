@@ -1,0 +1,13 @@
+[package]
+name = "just"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+better_default = "1.0.5"
+eframe = "0.31.1"
+egui_extras = "0.31.1"
+serialport = "4.7.2"
+tokio = { version = "1.45.1", features = ["full"] }
+tokio-serial = "5.4.5"
+windows = "0.61.3"
